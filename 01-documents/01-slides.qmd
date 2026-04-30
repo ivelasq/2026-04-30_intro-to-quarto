@@ -126,7 +126,7 @@ Markdown is a lightweight markup language for creating formatted text using a pl
 <div class="sourceCode">
 <pre class="sourceCode markdown">
 <code class="sourceCode markdown">
-Drug X achieved **superior** response and `survival outcomes`
+Electricity **generation** in the `Philippines`
 </code>
 </pre>
 </div>
@@ -134,7 +134,7 @@ Drug X achieved **superior** response and `survival outcomes`
 
 Results in:
 
-Drug X achieved **superior** response and `survival outcomes`
+Electricity **generation** in the `Philippines`
 
 ## Anatomy of a Quarto document
 
