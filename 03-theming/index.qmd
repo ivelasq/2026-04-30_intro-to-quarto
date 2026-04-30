@@ -1,0 +1,22 @@
+---
+title: "03 - Theming Quarto"
+backgroundcolor: "white"
+---
+
+## Slides
+
+[View slides in full screen](03-slides.html)
+
+```{=html}
+<iframe class="slide-deck" src="03-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+
+## Exercise 1
+
+{{< include 03-exercise.qmd >}}
+
+## More Information
+
+I gave a 1-hour talk at R-Ladies Rome on branding Quarto with brand.yml. Check it and [the documentation out](https://posit-dev.github.io/brand-yml/) for more details.
+
+<center><iframe width="800" height="450" src="https://www.youtube.com/embed/mTuhQ64P3qc?si=DOMIXyiS1imTe1Ja" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>

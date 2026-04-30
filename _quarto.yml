@@ -1,0 +1,58 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "Getting Started with Quarto: A Hands-On Workshop"
+  description: "R User Group RNVSU"
+
+  repo-url: https://github.com/ivelasq/2026-04-30_intro-to-quarto
+  repo-actions: [edit, issue]
+
+  open-graph: true
+
+  sidebar:
+    background: "#F7F4E9"
+    logo: images/logo.jpeg
+    pinned: true
+    align: center
+    style: docked
+    search: true
+    collapse-level: 2
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: 00-introduction/index.qmd
+        text: 00 - Introduction
+      - href: 01-documents/index.qmd
+        text: 01 - Documents
+      - href: 02-projects/index.qmd
+        text: 02 - Projects
+      - href: 03-theming/index.qmd
+        text: 03 - Theming
+      - href: 04-publishing/index.qmd
+        text: 04 - Publishing
+      - href: 05-sharing/index.qmd
+        text: 05 - Creating and Sharing
+      - href: 06-customization/index.qmd
+        text: 06 - Extra Customization
+        
+  page-footer:
+    right: "This page is built with 🖤️ and [Quarto](https://quarto.org/)."
+    left: "&copy; Copyright 2026, Isabella Velásquez"
+    background: "#918151"
+
+format:
+  html:
+    theme:
+      light: [brand, styles.scss]
+    toc: true
+    linkcolor: "#918151"
+    code-copy: true
+    code-overflow: wrap
+    mainfont: "Work Sans"
+
+execute:
+  freeze: auto
+  echo: true

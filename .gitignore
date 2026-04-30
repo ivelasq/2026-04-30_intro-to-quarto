@@ -1,0 +1,8 @@
+*.html
+/_freeze/
+/.posit
+.quarto
+.Rproj.user
+/docs/
+*.Rproj
+.Rhistory

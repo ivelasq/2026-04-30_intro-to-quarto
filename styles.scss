@@ -1,0 +1,33 @@
+/*-- scss:defaults --*/
+
+h1.title {
+  color: #39729E !important;
+}
+
+.reveal .slide .your-turn {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  border-left: solid 5px #FF7518;
+  background-color: #FCD299;
+}
+
+.reveal .slide .our-turn {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  border-left: solid 5px #5A799D;
+  background-color: #5A799D50;
+}
+
+.center-align {
+  text-align: center;
+}
+
+$code-block-bg: white;

@@ -1,0 +1,17 @@
+* Add `final-report.qmd` under `Home` and give it the text `Report`:
+
+```{.yaml filename="_quarto.yml"}
+navbar:
+  left:
+    - href: index.qmd
+      text: Home
+    - href: final-report.qmd
+      text: Report
+```
+
+* Open `about.qmd` and add some information about yourself. Feel free to edit the YAML.
+* Render the project, then explore your new website!
+
+```{.bash filename="Terminal"}
+quarto preview
+```

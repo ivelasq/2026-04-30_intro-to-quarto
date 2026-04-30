@@ -1,0 +1,22 @@
+---
+title: "01 - Quarto Documents"
+backgroundcolor: "white"
+---
+
+## Slides
+
+[View slides in full screen](01-slides.html)
+
+```{=html}
+<iframe class="slide-deck" src="01-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+
+## Exercises
+
+### Exercise 1
+
+{{< include 01-exercise01.qmd >}}
+
+### Exercise 2
+
+{{< include 01-exercise02.qmd >}}

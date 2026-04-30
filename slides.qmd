@@ -1,0 +1,14 @@
+---
+title: "Getting Started with Quarto: A Hands-On Workshop"
+subtitle: "R User Group RNVSU | Isabella Velásquez"
+format: revealjs
+title-slide-attributes:
+  data-background-image: /images/hero_right.png
+  data-background-color: "#EDF3F9"
+  data-background-size: contain
+  data-background-opacity: "0.5"
+  style: "text-align: left; right: 10%"
+  data-background-position: 100% center
+---
+
+## Introduction

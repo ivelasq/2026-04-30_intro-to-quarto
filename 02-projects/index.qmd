@@ -1,0 +1,23 @@
+---
+title: "02 - Quarto Projects"
+backgroundcolor: "white"
+---
+
+## Slides
+
+[View slides in full screen](02-slides.html)
+
+```{=html}
+<iframe class="slide-deck" src="02-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+
+## Exercise 1
+
+{{< include 02-exercise01.qmd >}}
+
+{{< include 02-exercise02.qmd >}}
+
+## More Information
+
+* [Quarto Dashboards Video Series](https://www.youtube.com/watch?v=HW7QbqI4fH0&list=PLitrm9UndxcsapDsLimKGn3dEjQZy5vYs) by Mine Çetinkaya-Rundel
+* [Quarto Websites Video Series](https://www.youtube.com/playlist?list=PLitrm9Undxcu7eExaTg9Y-JYLv9O6uxGu) by Charlotte Wickham and Emil Hvitfedlt

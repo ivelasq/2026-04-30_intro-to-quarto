@@ -1,0 +1,10 @@
+* Open `01-exercise.qmd` and run the code chunks (in order).
+* Preview the file.
+* Add a `#| include: false` chunk option to the first cell. Preview the file and note the differences.
+* In the YAML, add an `author` field and add your name. Preview the file.
+* Change `code-fold` to be `true`. Preview the file.
+* Edit the first paragraph to (1) make something bold by surrounding the text with `**` and (2) use inline code instead of hardcoded values for the p-value:
+
+```markdown
+In `r latest_year`, renewable sources (geothermal, hydropower, solar, wind, biofuels, and waste) accounted for **`r latest_share`%** of total generation, up from **`r earlier_share`%** in 2019.
+```

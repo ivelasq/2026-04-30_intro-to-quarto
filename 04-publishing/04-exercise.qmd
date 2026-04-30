@@ -1,0 +1,4 @@
+Sign up for a free Posit Connect Cloud account: <https://connect.posit.cloud/>
+
+* Sync with Connect Cloud by running `rsconnect::connectCloudUser()`.
+* Deploy the dashboard by running `rsconnect::deployDoc("01-dashboard.qmd")`.

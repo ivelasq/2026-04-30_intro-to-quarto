@@ -1,0 +1,46 @@
+---
+title: "Publishing"
+format: 
+  revealjs:
+    transition: fade
+    background-transition: fade
+    include-after-body:
+      - "../tabset.html"
+    footer: <https://bit.ly/rnvsu-quarto>
+filters:
+  - reveal-auto-agenda
+title-slide-attributes:
+  data-background-image: /images/hero_right.png
+  data-background-color: "#f6f2e9"
+  data-background-size: contain
+  data-background-opacity: "0.5"
+  style: "text-align: left; right: 10%"
+  data-background-position: 100% center
+---
+
+## Publishing options
+
+Quarto documents are typically just static HTML pages so can be deployed to any web server or web host.
+
+-   [Posit Connect Cloud](https://connect.posit.cloud/)
+-   [GitHub Pages](https://pages.github.com/)
+-   [Quarto Pub](https://quartopub.com/)
+-   [Posit Connect](https://posit.co/products/enterprise/connect/)
+
+::: aside
+[Publishing Quarto documentation](https://quarto.org/docs/publishing/)
+:::
+
+## Posit Connect Cloud
+
+![](../images/pcc.png){fig-align="center"}
+
+[https://connect.posit.cloud/](https://connect.posit.cloud/)
+
+Easily publish and share data applications and documents in a cloud environment within minutes.
+
+## Our turn {background-color='{{< brand color light-blue >}}'}
+
+{{< include 04-exercise.qmd >}}
+
+{{< countdown minutes=5 seconds=30 >}}

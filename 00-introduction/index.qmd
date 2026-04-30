@@ -1,0 +1,32 @@
+---
+title: "00 - Welcome and Introduction"
+backgroundcolor: "white"
+---
+
+## Slides
+
+[View slides in full screen](00-slides.html)
+
+```{=html}
+<iframe class="slide-deck" src="00-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+
+## Set Up Instructions
+
+{{< include 00-exercises01.qmd >}}
+
+## Exercise 1
+
+{{< include 00-exercises02.qmd >}}
+
+## More Information
+
+### Why is it called Quarto?
+
+According to the website, the developers wanted to use a name that had meaning in the history of publishing and ultimately landed on Quarto. A quarto is an 8-page double-sided booklet, made by folding a single sheet of paper into four sections.
+
+> Quarto is the format of a book or pamphlet produced from full sheets printed with eight pages of text, four to a side, then folded twice to produce four leaves.
+>
+> --- Wikipedia
+
+![](../images/quarto-book.png){fig-align="center"}

@@ -1,0 +1,178 @@
+---
+title: "Projects"
+format: 
+  revealjs:
+    transition: fade
+    background-transition: fade
+    include-after-body:
+      - "../tabset.html"
+    footer: <https://bit.ly/rnvsu-quarto>
+filters:
+  - reveal-auto-agenda
+title-slide-attributes:
+  data-background-image: /images/hero_right.png
+  data-background-color: "#f6f2e9"
+  data-background-size: contain
+  data-background-opacity: "0.5"
+  style: "text-align: left; right: 10%"
+  data-background-position: 100% center
+---
+
+## Quarto projects
+
+Quarto projects are directories that provide:
+
+::: incremental
+
+* A way to render all or some of the files in a directory with a single command (e.g. `quarto render myproject`).
+* A way to share YAML configuration across multiple documents.
+* The ability to redirect output artifacts to another directory.
+* The ability to freeze rendered output (i.e. don’t re-execute documents unless they have changed).
+
+:::
+
+::: notes
+One of the most important features of Quarto Projects is the ability to share YAML metadata options across multiple documents.
+:::
+
+## Quarto projects
+
+Some formats must be created within a Quarto project:
+
+* Websites
+* Blogs
+* Books
+
+## Anatomy of a Quarto project
+
+::: r-fit-text
+> [A Quarto Project is a directory]{.fragment} [that contains a file called `_quarto.yml`.]{.fragment}
+:::
+
+\
+
+::: columns
+::: {.column .fragment .fade-right width="50%"}
+This is a Quarto Project.
+
+```         
+my-folder/
+├── _quarto.yml
+├── my-document.ipynb
+```
+:::
+
+::: {.column .fragment .fade-left width="50%"}
+This is not.
+
+```         
+my-folder/
+├── my-document.ipynb
+```
+:::
+:::
+
+::: notes
+Quarto projects include a \_quarto.yml configuration file so that every document in the project inherits the metadata in that file. So, if you think about a blog, you probably want all your posts to have the same theme. If you use the Quarto command for making a new blog, it will automatically be a project, and you can configure the theme for all pages in the \_quarto.yml file.
+:::
+
+## \_quarto.yml {auto-animate="true"}
+
+A YAML file with particular keys and values that Quarto recognizes. Unrecognized keys are ignored.
+
+``` {.yaml .fragment filename="_quarto.yml"}
+project:
+  title: "Getting Started with Quarto: A Hands-On Workshop"
+```
+
+## \_quarto.yml {auto-animate="true"}
+
+A YAML file with particular keys and values that Quarto recognizes. Unrecognized keys are ignored.
+
+``` {.yaml filename="_quarto.yml" code-line-numbers="2,5-8|23-35|52-54"}
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "Getting Started with Quarto: A Hands-On Workshop"
+  description: "RNVSU Workshop"
+
+  repo-url: 2025-11-04_branded-quarto
+  repo-actions: [edit, issue]
+
+  open-graph: true
+
+  sidebar:
+    background: "#EDF3F9"
+    logo: https://secure.meetupstatic.com/photos/event/d/4/a/1/clean_532374433.webp
+    pinned: true
+    align: center
+    style: docked
+    search: true
+    collapse-level: 2
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: 00-introduction/index.qmd
+        text: Introduction
+      - href: 01-documents/index.qmd
+        text: Documents
+      - href: 02-projects/index.qmd
+        text: Projects
+      - href: 03-theming/index.qmd
+        text: Theming
+      - href: 04-publishing/index.qmd
+        text: Publishing
+        
+  page-footer:
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+    left: "&copy; Copyright 2025, Isabella Velásquez"
+    background: "#D1D9E3"
+
+format:
+  html:
+    theme:
+      light: [brand, styles.scss]
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    mainfont: "Source Sans 3"
+
+execute:
+  freeze: auto
+  echo: true
+```
+
+## Freeze
+
+You can use the freeze option to denote that computational documents should never be re-rendered during a global project render, or alternatively only be re-rendered when their source file changes:
+
+``` {.yaml .fragment filename="_quarto.yml"}
+execute:
+  freeze: true  # never re-render during project render
+```
+
+<br>
+
+``` {.yaml .fragment filename="_quarto.yml"}
+execute:
+  freeze: auto  # re-render only when source changes
+```
+
+::: notes
+Rendering a bunch of files can be quite time consuming depending on the computations required. The freeze option specifies if computational documents should never be re-rendered during a global project render, or only be re-rendered when their source file changes. Freeze can used when you have either a large number of collaborators or many computational documents created over a long period of time. In these cases, it can be challenging to fully re-execute every document when you render the site. This could be because some documents have environment-specific requirements or one of your teammates wrote something in Python, which you don't have installed. Using freeze ensures that you can always reproducibly render your site.
+:::
+
+## Our turn {background-color='{{< brand color light-blue >}}' .smaller}
+
+{{< include 02-exercise01.qmd >}}
+
+## Our turn {background-color='{{< brand color light-blue >}}' .smaller}
+
+{{< include 02-exercise02.qmd >}}
+
+::: footer
+[Posit Cloud link: posit.cloud/content/12393384](posit.cloud/content/12393384)
+:::

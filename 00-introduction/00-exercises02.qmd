@@ -1,0 +1,18 @@
+* Open the `01-exercise.qmd` file.
+* Preview/render the document.
+  * **Posit Cloud**: You may be asked to allow pop-ups.
+* Edit the title and preview/render again.
+
+::::: columns
+:::: {.column width="48%"}
+![](../images/rstudio-preview.png){style="box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); border-radius: 5px;"}
+::::
+
+:::: {.column width="4%"}
+::::
+
+:::: {.column width="48%"}
+![](../images/positron-preview.png){ style="box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); border-radius: 5px;"}
+
+::::
+:::::

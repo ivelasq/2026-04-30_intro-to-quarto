@@ -1,0 +1,46 @@
+#
+# _brand.yml for R User Group RNVSU
+#
+
+meta:
+  name: "Getting Started with Quarto: A Hands-On Workshop"
+  link:
+    home: https://www.meetup.com/r-nvsu/events/313601010/?recId=4bb98bbb-7e4f-48da-a841-11fc763dc493&searchId=8c2cfd66-073d-4470-a5aa-9d10da4b46ee
+    
+logo:
+  images:
+    icon:
+      path: images/logo.jpeg
+      alt: RNVSU logo.
+  small: images/r.png
+
+color:
+  palette:
+    dark-blue: "#39729E"
+    light-blue: "#EDF3F9"
+    gray: "#464C52"
+    orange: "#FF7518"
+    pink: "#FCD299"
+    
+  background: white
+  foreground: gray
+  
+typography:
+  fonts:
+    - family: Work Sans
+      source: google
+      weight: [400, 700]
+    - family: Cinzel
+      source: google
+      
+  base:
+    family: Work Sans
+    weight: 400
+    
+  headings:
+    color: "#5A799D"
+    family: Cinzel
+    weight: 700
+    
+  link:
+    color: "#918151"

@@ -1,0 +1,4 @@
+* Open `01-dashboard.qmd` and render the dashboard.
+* Change `orientation` to `rows` to see how the layout changes.
+* Change the first column to tabsets by adding `{.tabset}` to `## Columns`.
+* Add a first-level heading above the `setup` chunk called `Data`, and another after all of the code chunks called `About`. Write some text under `About` and rerender to see multiple pages.

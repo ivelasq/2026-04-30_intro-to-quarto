@@ -1,0 +1,16 @@
+---
+title: "04 - Publishing Quarto"
+backgroundcolor: "white"
+---
+
+## Slides
+
+[View slides in full screen](04-slides.html)
+
+```{=html}
+<iframe class="slide-deck" src="04-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+
+## Exercise 1
+
+{{< include 04-exercise.qmd >}}

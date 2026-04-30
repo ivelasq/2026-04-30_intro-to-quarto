@@ -1,0 +1,25 @@
+---
+title: "Getting Started with Quarto: A Hands-On Workshop"
+subtitle: R User Group RNVSU
+backgroundcolor: "white"
+---
+
+🗓️ Date: 30 April 2026
+
+🕗 Time: 8:30 - 10:00 PM CT
+
+## Abstract
+
+Join us for a virtual, hands-on workshop on Quarto, a tool for creating reproducible documents, reports, and dashboards with R, Python, and more. The next-generation of R Markdown, Quarto makes it easy to combine code, narrative, and results into polished, shareable outputs. In this session, you’ll learn the basics of getting started, explore common workflows, and see how Quarto can help you create clear, reproducible work for the web, presentations, and more.
+
+## Instructor
+
+[Isabella Velásquez](https://ivelasq.rbind.io) is a Senior Developer Advocate at Posit Software, where she develops strategic content to increase brand visibility and drive product adoption. She has a background in data analysis, reporting, and visualization and holds an MS in Analytics and a BA in Economics and East Asian Languages and Civilizations from the University of Chicago.
+
+[{{< fa blog >}}](https://ivelasq.rbind.io) [{{< fa brands linkedin >}}](https://www.linkedin.com/in/ivelasq/) [{{< fa brands github >}}](https://github.com/ivelasq) [{{< fa brands bluesky >}}](https://bsky.app/profile/ivelasq3.bsky.social) [{{< fa brands mastodon >}}](https://fosstodon.org/@ivelasq3) 
+
+------------------------------------------------------------------------
+
+![](https://i.creativecommons.org/l/by/4.0/88x31.png) This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
+The website is based on a template by [Mine Çetinkaya-Rundel](https://mine-cr.com/), used with appreciation and adapted for this workshop.

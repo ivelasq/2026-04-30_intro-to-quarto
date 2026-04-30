@@ -1,0 +1,58 @@
+To follow along with the workshop exercises, you'll need Quarto version 1.8+ and access to a code editor that supports R.
+
+While Quarto itself doesn't require a programming language, the exercises will include code chunks in R. If you don’t already have R set up locally, I recommend using Posit Cloud. I will delete the Posit Cloud project in a few days, so please make a copy of your materials if you would like to keep them.
+
+### Recommended Setup Options
+
+#### Option 1: Posit Cloud (RStudio in the cloud)
+
+* Create a free account at <https://posit.cloud>
+* Open the Posit Cloud project link: <https://posit.cloud/content/12393384>
+* To save a copy of the project to your workspace, click "Save a permanent copy"
+
+#### Option 2: Local Installation
+
+Choose one editor and follow the steps:
+
+::: {.panel-tabset}
+
+#### Positron
+
+* Download and install Positron: <https://positron.posit.co/download.html>
+* Quarto comes pre-installed
+
+#### RStudio
+
+* Download and install RStudio: <https://posit.co/downloads/>
+  * Make sure RStudio is version 2022.07+
+* Quarto comes pre-installed
+
+:::
+  
+**Access the Workshop Materials**
+
+::: {.panel-tabset}
+### If you use Git
+
+Clone the repository with Git:
+
+```bash
+git clone https://github.com/ivelasq/rnvsu-quarto-exercises.git
+```
+
+### If you don't use Git
+
+* Go to the GitHub repo: <https://github.com/ivelasq/rnvsu-quarto-exercises>
+* Click the green "Code" button → "Download ZIP"
+* Unzip the folder and open it in your chosen editor
+
+:::
+
+**Install the Necessary Packages**
+
+Run the below:
+
+```r
+install.packages("pak")
+pak::pak(c("tidyverse", "here", "janitor", "knitr", "rmarkdown", "scales", "gt", "RCurl", "rsconnect"))
+```

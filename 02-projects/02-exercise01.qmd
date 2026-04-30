@@ -1,0 +1,13 @@
+* In your folder, convert the document into a project by running:
+
+```{.bash filename="Terminal"}
+quarto create project
+```
+
+* For **Type**, select `website`.
+* For **Directory**, type `.`.
+* For **Title**, give it a title related to the Philippines.
+
+Quarto will create several files, including `_quarto.yml` (you may need to refresh the files pane).
+
+* Open `_quarto.yml`.
